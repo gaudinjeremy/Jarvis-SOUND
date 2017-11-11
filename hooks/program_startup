@@ -1,7 +1,7 @@
-autovoice=$(js_ia_getStrictText autovoice 2)
-js_sd_setSound $autovoice
-js_sd_setState voice $autovoice
+#autovoice=$(js_ia_getStrictText autovoice 2)
+#js_sd_setSound $autovoice
+#js_sd_setState voice $autovoice
 
-automicro=$(js_ia_getStrictText automicro 2)
-js_sd_setMic $automicro
-js_sd_setState micro $automicro
+#automicro=$(js_ia_getStrictText automicro 2)
+#js_sd_setMic $automicro
+#js_sd_setState micro $automicro
