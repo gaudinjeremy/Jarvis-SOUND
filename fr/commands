@@ -1,0 +1,11 @@
+*SON MAX*==js_sd_setSound 100
+*SON NORMAL*==js_sd_setSound 95
+*SON MOYEN*==js_sd_setSound 85
+*SON MINI*==js_sd_setSound 70
+*SON MUTE*==js_sd_setSound 0
+
+*MICRO MAX*==js_sd_setMic 100
+*MICRO NORMAL*==js_sd_setMic 90
+*MICRO MOYEN*==js_sd_setMic 75
+*MICRO MINI*==js_sd_setMic 50
+*MICRO MUTE*==js_sd_setMic 0
