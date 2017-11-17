@@ -2,12 +2,11 @@
 
 #MODULE SOUND : Controle du volume de la carte son et du micro
 
-js_sd_setSound(){
+# $1 : carte son
+# $2 : controller SON
+# $3 : valeur
+jv_set_sound(){
 
-	amixer -c$carteSon set $controllerSon,0 "$1"% >/dev/null
-}
-
-js_sd_setMic(){
-
-	amixer -c$carteMic set $controllerMic,0 "$1"% >/dev/null
+	amixer -c$1 set $2, 0 "$3"% >/dev/null
+	jv_ia updateValue SOUND $2 $3 >/dev/null
 }

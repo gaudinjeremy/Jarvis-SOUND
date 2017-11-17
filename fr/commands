@@ -1,11 +1,11 @@
-*SON MAX*==js_sd_setSound 100
-*SON NORMAL*==js_sd_setSound 95
-*SON MOYEN*==js_sd_setSound 85
-*SON MINI*==js_sd_setSound 70
-*SON MUTE*==js_sd_setSound 0
+*SON MAX*==jv_set_sound $carteSon $controllerSon 100
+*SON NORMAL*==jv_set_sound $carteSon $controllerSon 95
+*SON MOYEN*==jv_set_sound $carteSon $controllerSon 85
+*SON MINI*==jv_set_sound $carteSon $controllerSon 70
+*SON MUTE*==jv_set_sound $carteSon $controllerSon 0
 
-*MICRO MAX*==js_sd_setMic 100
-*MICRO NORMAL*==js_sd_setMic 90
-*MICRO MOYEN*==js_sd_setMic 75
-*MICRO MINI*==js_sd_setMic 50
-*MICRO MUTE*==js_sd_setMic 0
+*MICRO MAX*==jv_set_sound $carteMic $controllerMic 100
+*MICRO NORMAL*==jv_set_sound $carteMic $controllerMic 90
+*MICRO MOYEN*==jv_set_sound $carteMic $controllerMic 75
+*MICRO MINI*==jv_set_sound $carteMic $controllerMic 50
+*MICRO MUTE*==jv_set_sound $carteMic $controllerMic 0
