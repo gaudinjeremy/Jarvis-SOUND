@@ -2,10 +2,10 @@
 *SON NORMAL*==jv_set_sound $carteSon $controllerSon 95
 *SON MOYEN*==jv_set_sound $carteSon $controllerSon 85
 *SON MINI*==jv_set_sound $carteSon $controllerSon 70
-*SON MUTE*==jv_set_sound $carteSon $controllerSon 0
+*SON MUTE*==jv_set_sound $carteSon $controllerSon 1
 
 *MICRO MAX*==jv_set_sound $carteMic $controllerMic 100
 *MICRO NORMAL*==jv_set_sound $carteMic $controllerMic 90
 *MICRO MOYEN*==jv_set_sound $carteMic $controllerMic 75
 *MICRO MINI*==jv_set_sound $carteMic $controllerMic 50
-*MICRO MUTE*==jv_set_sound $carteMic $controllerMic 0
+*MICRO MUTE*==jv_set_sound $carteMic $controllerMic 1

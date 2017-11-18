@@ -7,6 +7,6 @@
 # $3 : valeur
 jv_set_sound(){
 
-	amixer -c$1 set $2, 0 "$3"% >/dev/null
-	jv_ia updateValue SOUND $2 $3 >/dev/null
+	amixer -c$1 set $2,0 "$3"% >/dev/null
+	jv_ia_say updateValue sound $2 $3
 }

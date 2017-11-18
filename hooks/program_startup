@@ -1,8 +1,8 @@
-jv_ia initPlugin SOUND $controllerSon >/dev/null
-jv_ia initPlugin SOUND $controllerMic >/dev/null
+jv_ia_print initPlugin sound $controllerSon >/dev/null
+jv_ia_print initPlugin sound $controllerMic >/dev/null
 
-autoSound=$(jv_ia getValue SOUND $controllerSon) >/dev/null
-autoMic=$(jv_ia getValue SOUND $controllerMic) >/dev/null
+autoSound=$(jv_ia_print getValue sound $controllerSon) >/dev/null
+autoMic=$(jv_ia_print getValue sound $controllerMic) >/dev/null
 
 jv_set_sound $carteSon $controllerSon $autoSound >/dev/null
 jv_set_sound $carteMic $controllerMic $autoMic >/dev/null
